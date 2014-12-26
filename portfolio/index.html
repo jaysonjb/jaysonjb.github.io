@@ -1,0 +1,18 @@
+---
+layout: default
+body_class: portfolio
+---
+
+<div class="artwork-container">
+{% for artwork in site.data.artwork %}
+  <div class="artwork"> 
+    <div class="artwork-info">
+      <h3>{{artwork.title}}</h3>
+      <p>{{artwork.description}}</p>
+    </div>
+    <a class="artwork-image" href="{{ "/artwork" | prepend: site.baseurl }}/{{artwork.filename}}">
+      <img src="{{ "/artwork" | prepend: site.baseurl }}/{{artwork.filename}}" />
+    </a>
+  </div>
+{% endfor %}
+</div>

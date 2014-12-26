@@ -1,0 +1,47 @@
+.artwork-container {
+  margin-top: 50px;
+}
+
+.artwork {
+  padding-bottom: 50px;
+  width: 100%;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.artwork-info {
+  text-align: left;
+
+  h3 {
+    margin-top: 0px;
+    font-weight: normal;
+    font-size: 36px;
+  }
+}
+
+.artwork-image {
+  text-align: center;
+  vertical-align: top;
+}
+
+@media(min-width: $m) {
+  .artwork {
+    display: table;
+  }
+
+  .artwork-info {
+    display: table-cell;
+    width: 35%;
+    padding-right: 50px;
+  }
+  .artwork-image {
+    display: table-cell;
+    img {
+      height: auto;
+      width: 100%;
+    }
+  }
+}

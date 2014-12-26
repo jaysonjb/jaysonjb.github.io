@@ -1,0 +1,23 @@
+@import url(http://fonts.googleapis.com/css?family=Mate|Cinzel:400,700);
+
+@import "settings";
+@import "normalize";
+@import "header";
+@import "index";
+@import "portfolio";
+@import "contact";
+
+body {
+  color: white;
+  background-color: $black;
+  font-family: $font-body;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: $font-header;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}

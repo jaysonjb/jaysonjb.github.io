@@ -1,0 +1,22 @@
+body.index {
+  background: image-url('hair_spiral.jpg')  no-repeat center center fixed;
+  background-size: cover;
+}
+
+.home {
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 15px $black;
+
+  h1 {
+    font-size: 92px;
+    font-weight: normal;
+  }
+  h2 {
+    font-size: 36px; 
+    font-weight: normal;
+  }
+}
+
+
