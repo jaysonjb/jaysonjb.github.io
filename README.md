@@ -2,9 +2,9 @@
 
 Sup, Jayson.
 
-To update your portfolio, edit the file located at HERE.  
+To update your portfolio, edit the file located at [here] (https://github.com/jaysonjb/jaysonjb.github.io/edit/master/_data/artwork.yml).  
 
-Add another image like this:
+Add another image by adding the following lines anywhere in that file:
 ```yml
 - title: Bloom
   description: This sprite was meant to focus more...
