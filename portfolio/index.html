@@ -10,8 +10,8 @@ body_class: portfolio
       <h3>{{artwork.title}}</h3>
       <p>{{artwork.description}}</p>
     </div>
-    <a class="artwork-image" href="{{ "/artwork" | prepend: site.baseurl }}/{{artwork.filename}}">
-      <img src="{{ "/artwork" | prepend: site.baseurl }}/{{artwork.filename}}" />
+    <a class="artwork-image" href="{{artwork.url}}">
+      <img src="{{artwork.url}}" />
     </a>
   </div>
 {% endfor %}
